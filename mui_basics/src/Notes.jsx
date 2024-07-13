@@ -4,8 +4,8 @@ import HeroBlock from './HeroBlock';
 
 const Notes = () => {
     return (<div>
-        <HeroBlock/>
-       {/* <p>notes page</p>
+        {/* <HeroBlock/> */}
+       <p>notes page</p>
        <Typography
         variant="h1"
         component="h2"
@@ -17,7 +17,7 @@ const Notes = () => {
         component="p"
         color="secondary" >
   h2 Heading 
-</Typography> */}
+</Typography>
  
     </div>  );
 }
