@@ -4,6 +4,7 @@ import Create from './Create';
 import GradientCard from './GradientCard';
 import Buttons from './Buttons';
 import CustomButton from './CustomButton';
+import MyForm from './MyForm';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/card' element={<GradientCard />} />
         <Route path="/button" element={<Buttons/>} />
         <Route path="/custom" element={<CustomButton/>} />
+        <Route path="/form" element={<MyForm/>} />
      
       </Routes>
     </Router>
